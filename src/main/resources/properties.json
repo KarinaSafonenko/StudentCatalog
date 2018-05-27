@@ -1,0 +1,25 @@
+{
+  "vk": {
+    "client_id": "6480546",
+    "client_secret": "MAHNlJEyHEQcEjAqsCNH",
+    "version": "5.74",
+    "scope": "users",
+    "request_uri": "https://api.vk.com/method/",
+    "request_method": "users.get",
+    "redirect_uris": [
+      "http://localhost:8000/VkServlet"
+    ]
+  },
+  "google": {
+    "client_id": "265395496891-tvufkc2gvfroocptrif4l6qs2c0q7sbc.apps.googleusercontent.com",
+    "client_secret": "HOyu3mSUdLuzI7dGXVr0pFHC",
+    "project_id": "academic-script-204306",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://accounts.google.com/o/oauth2/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "redirect_uris": [
+      "http://localhost:8000/ControllerServlet?command=GOOGLE_FINISHED",
+      "http://localhost:8000/ControllerServlet?command=CHECK"
+    ]
+  }
+}
